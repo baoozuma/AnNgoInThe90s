@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Application</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- UI yêu cầu mật khẩu -->
+  <div id="password-screen" class="password-screen">
+    <div class="password-box">
+      <h2>Nhập mật khẩu máy tính</h2>
+      <input type="password" id="password" placeholder="Mật khẩu" />
+      <button onclick="checkPassword()">Đăng nhập</button>
+      <p id="error-message" class="error-message"></p>
+    </div>
+  </div>
+
+  <!-- Nội dung chính sau khi nhập mật khẩu -->
+  <div id="main-content" class="hidden">
+
+
+    <a class="app-container" href="./Music-Player/music.html" target="_blank" >
+
+     <img src="nghenhac.png" alt="">
+      
+      <p>Nghe nhạc</p>
+    </a>
+    <a class="app-container"href="./Library/library.html" target="_blank" >
+
+     <img src="thuvien.png" alt="" >
+      
+      <p>Thư viện</p>
+    </a>
+    <a class="app-container" href="./Lyrics/library.html" target="_blank"  >
+
+     <img src="loibaihat.png" alt="">
+      
+      <p>Lời bài hát</p>
+    </a>
+
+     
+    </div>
+  </div>
+  <h1 class="head">ÂN NGỜ IN THE 90S</h1>
+  <script src="scripts.js"></script>
+</body>
+</html>

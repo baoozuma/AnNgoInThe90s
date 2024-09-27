@@ -1,0 +1,131 @@
+/* Tổng thể */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #16002c;
+  font-family: monospace;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0.5em 0;
+  color: #333;
+}
+
+/* Mật khẩu UI */
+.password-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.password-box {
+  background-color: yellow;
+  padding: 2em;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.password-box h2 {
+  margin-bottom: 1em;
+}
+
+.password-box input {
+  padding: 0.5em;
+  width: 80%;
+  margin-bottom: 1em;
+}
+
+.password-box button {
+  padding: 0.5em 1em;
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.password-box button:hover {
+  background-color: #555;
+}
+
+.error-message {
+  color: rgb(0, 0, 0);
+  display: none;
+}
+
+/* Ẩn phần nội dung chính cho đến khi đăng nhập */
+.hidden {
+  display: none;
+}
+
+/* App container */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  margin: 2em;
+  width: 8em;
+  height: 7em;
+  color: yellow;
+  transition: all 0.3s;
+}
+.app-container:hover {
+  scale:1.1;
+}
+.app-container p {
+  font-size: 1.2em;
+}
+.app-container img {
+  width: 4em;
+  height: auto;
+}
+a {
+  text-decoration: none;
+}
+.app-box {
+  width: 250px;
+  padding: 1.5em;
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2em;
+}
+
+.app-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 1em;
+}
+
+.app-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.lyrics {
+  text-align: left;
+  margin-top: 1em;
+  color: #555;
+}
+
+.head {
+  position: fixed;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  font-size: 3vw;
+  color: yellow;
+  width: 30vw;
+  text-align: center;
+}
